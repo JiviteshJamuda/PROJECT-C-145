@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Web-VR page</title>
+        <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene background = 'color : #d7dddd'>
+            <!-- Cuboid -->
+            <a-text position = '-10.25 3 -8' value = 'Cuboid' color = '#000' size = '10'></a-text>
+            <a-box position = '-10 4.5 -8' height = '2' width = '3' depth = '3' color = '#ffb330' ></a-box>
+            <!-- Cube -->
+            <a-text position = '-10.25 -0.5 -8' value = 'Cube' color = '#000' size = '10'></a-text>
+            <a-box position = '-10 1 -8' height = '2' width = '2' depth = '2' color = '#fcff6d' ></a-box>
+            <!-- Cone -->
+            <a-text position = '-5.25 3 -8' value = 'Cone' color = '#000' size = '10'></a-text>
+            <a-cone position = '-5 4.5 -8' color='#db00c5' radius-bottom='1' height = '2'></a-cone>
+            <!-- Cylinder -->
+            <a-text position = '-5.25 -0.5 -8' value = 'Cylinder' color = '#000' size = '10'></a-text>
+            <a-cylinder position = '-5 1 -8' color='#99ffdb' height='2' radius='1'></a-cylinder>
+            <!-- Sphere -->
+            <a-text position = '-0.30 3 -8' value = 'Sphere' color = '#000' size = '10'></a-text>
+            <a-sphere position = '0 4.5 -8' color='#473aff' radius='1'></a-sphere>
+            <!-- Octahedron -->
+            <a-text position = '-0.6 -0.5 -8' value = 'Octahedron' color = '#000' size = '10'></a-text>
+            <a-octahedron position = '0 1 -8' color='#00c609' radius='1'></a-octahedron>
+            <!-- Tetrahedron -->
+            <a-text position = '4.5 3 -8' value = 'Tetrahedron' color = '#000' size = '10'></a-text>
+            <a-tetrahedron position = '5 4.5 -8' color='#ff4242' radius='1'></a-tetrahedron>
+            <!-- Icosahedron -->
+            <a-text position = '4.5 -0.5 -8' value = 'Icosahedron' color = '#000' size = '10'></a-text>
+            <a-icosahedron position = '5 1 -8' color='#e0be62' radius='1'></a-icosahedron>
+            <!-- Dodecahedron -->
+            <a-text position = '9.25 3 -8' value = 'Dodecahedron' color = '#000' size = '10'></a-text>
+            <a-dodecahedron position = '10 4.5 -8' color='#6eabb7' radius='1'></a-dodecahedron>
+            <!-- Ring -->
+            <a-text position = '9.75 -0.5 -8' value = 'Ring' color = '#000' size = '10'></a-text>
+            <a-ring position = '10 1 -8' color='#72936d' radius-inner='0.4' radius-outer='1'></a-ring>
+
+            <!-- Base -->
+            <a-plane position = '0 -2 -8' rotation = '-90 0 0' height = '2' width = '30' color = 'brown'></a-plane>
+        </a-scene>
+    </body>
+</html>
